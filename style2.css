@@ -1,0 +1,43 @@
+.container{
+     height: 500px;
+    width: 500px;
+    border: 2px solid red;
+    position: relative;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+#box1{
+    position: absolute;
+    z-index: 2; 
+    background-color: aqua;
+    left: 50%;
+}                                                                                           
+#box2{
+    position: absolute;
+    background-color: rgb(43, 113, 15);
+    z-index: 1;
+
+}
+
+ #box3{
+    position: absolute;
+    z-index: 3;
+    left: 40%;
+    top: 10%;
+}
+#box3 img{
+    height: 200px;
+    width: 200px;
+    
+
+}
+
+/*
+#box4{
+    position: absolute;
+    background-color: rgb(38, 143, 20);
+} */
